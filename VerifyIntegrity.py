@@ -23,8 +23,8 @@ if len(sys.argv) == 4:
     except:  
         print ('[-]Please input a correct filename.')
     if algorithmCorrectValue == algorithmValue:
-        print("校验通过，文件安全")
+        print("校验通过，文件安全。")
     else:
-        print("校验未通过，危险文件")
+        print("校验未通过，危险文件！")
 else:  
     print ('[*]Usage: VerifyIntegrity.py [md5|sha1|sha256|sha512] [FilePath] [AlgorithmCorrectValue]')
