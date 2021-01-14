@@ -1,2 +1,2 @@
-# Python Scripts
-Personal Tool bx
+# Python
+Scripts
